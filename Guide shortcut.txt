@@ -1,0 +1,7 @@
+!!! + tab
+
+header>nav>a*4>p + tab
+
+section.hero>h1.title+img + tab
+
+footer>div.col*4>button.btn*4 + tab
