@@ -1,0 +1,79 @@
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 8px;
+}
+.searchbar {
+    grid-column: span 3 / span 3;
+}
+
+.homebutton {
+    grid-column-start: 5;
+}
+
+.aboutbutton {
+    grid-column-start: 6;
+}
+
+.charactersbutton {
+    grid-column-start: 7;
+}
+
+.newsbutton {
+    grid-column-start: 8;
+}
+
+.div7 {
+    grid-column: span 6 / span 6;
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+.div8 {
+    grid-column: span 6 / span 6;
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 6;
+}
+
+.div9 {
+    grid-column: span 6 / span 6;
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 9;
+}
+
+.div10 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 12;
+}
+
+.div11 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 12;
+}
+
+.div12 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 5;
+    grid-row-start: 12;
+}
+
+.div13 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 7;
+    grid-row-start: 12;
+}
+    
+
+
+
+  .button1 {background-color: #008CBA;} /* Blue */
+
+  html {
+    scroll-behavior: smooth;
+  }
